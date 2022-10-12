@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=technomart-width, initial-scale=1">
+  <title>HTML Academy: Техномарт</title>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="header-contact"><span>Интернет-магазин строительных материалов и инструментов для ремонта</span>
+      <span>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</span> <span>tel</span> <span>+7 (812) 555-05-55</span>
+    </div>
+    <a class="page-header-logo">
+      <img class="technomart-logo" src="#" width="#" height="#" alt="Логотип интеренет-магазина Техномарт">
+    </a>
+    <nav class="main-navigation">
+      <div class="search-wrapper">
+        <form class="search" action="https://echo.htmlacademy.ru" method="post">
+          <input placeholder="Поиск:" type="text" name="text">
+          <button class="search-button">Поиск</button>
+        </form>
+        <ul class="user-navigation">
+          <li class="enter">
+            <a class="enter-link" href="#">
+              <span>Войти</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <ul class="nav-list">
+        <li class="nav-item"><a class="main-page" href="#">Главная</a></li>
+        <li class="nav-item"><a class="company-page" href="#">Компания</a></li>
+        <li class="nav-item"><a class="catalog-page" href="#">Каталог</a></li>
+        <li class="nav-item"><a class="nrws-page" href="#">Новости</a></li>
+        <li class="nav-item"><a class="special-page" href="#">Спецпредложения</a></li>
+        <li class="nav-item"><a class="delivery-page" href="#">Доставка</a></li>
+        <li class="nav-item"><a class="contact-page" href="#">Контакты</a></li>
+      </ul>
+      <div class="header-menu-button">
+        <ul class="user-menu">
+          <li class="bookmarks"><a class="bookmarks-link" href="#">
+              <svg width="#" height="#" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="#" fil="#">
+                </path>
+              </svg>
+            </a></li>
+          <li class="basket"><a class="basket-link" href="#">
+              <svg width="#" height="#" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="#" fil="#">
+                </path>
+              </svg>
+            </a></li>
+          <li class="order-button">
+            <button class="create-order" type="button">
+              <span>Оформить заказ</span>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <h1 class="visually-hidden">Интернет-магазин "Техномарт"</h1>
+    <section class="main-categories-list">
+      <h2 class="visually-hidden">Категории товаров</h2>
+      <ul>
+        <li>материалы</li>
+        <li>инструмент</li>
+        <li>техника</li>
+        <li>дрели (слайды)</li>
+        <li>скидки 50%</li>
+        <li>доставка</li>
+      </ul>
+    </section>
+  </main>
+  <section class="catalog">
+    <h2>Перфораторы</h2>
+    <div class="filter-list">
+      <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+        <fieldset class="catalog-filter-group">
+          <legend class="catalog-filter-title">Производители</legend>
+          <ul class="catalog-filter-list">
+            <li class="catalog-filter-item"> <label class="control">
+                <input class="control-input" type="checkbox" name="BOSCH" checked>
+                BOSCH
+              </label>
+            </li>
+            <li class="catalog-filter-item">
+              <label class="control">
+                <input class="control-input" type="checkbox" name="ИНТЕРСКОЛ">
+                ИНТЕРСКОЛ
+              </label>
+            </li>
+            <li class="catalog-filter-item">
+              <input class="control-input" type="checkbox" name="MAKIta" checked>
+              MAKIta
+            </li>
+            <li class="catalog-filter-item">
+              <input class="control-input" type="checkbox" name="Dewalt">
+              Dewalt
+            </li>
+            <li class="catalog-filter-item">
+              <input class="control-input" type="checkbox" name="Hitachi">
+              Hitachi
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="catalog-filter-group">
+          <legend class="catalog-filter-title">Питание</legend>
+          <ul class="catalog-filter-list">
+            <li class="catalog-filter-item">
+              <input class="control-input" type="radio" name="electric-power" value="accumulator" checked>
+              Аккумуляторные
+            </li>
+            <li class="catalog-filter-item">
+              <input class="control-input" type="radio" name="network-power" value="network">
+              Сетевые
+            </li>
+          </ul>
+        </fieldset>
+        <button class="button" type="submit">Показать</button>
+      </form>
+    </div>
+  </section>
+</body>
+
+</html>
